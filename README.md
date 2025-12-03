@@ -89,7 +89,7 @@ dotnet ef migrations add InitialCreate --project ApiEstoque
 dotnet ef database update --project ApiEstoque
 ```
 ### 🧪 Como Testar (Passo a Passo)
-**1.**Cadastro: Na interface, preencha "Nome", "Preço" e escolha uma Categoria (1, 2 ou 3). Clique em "CADASTRAR".
+**1.** Cadastro: Na interface, preencha "Nome", "Preço" e escolha uma Categoria (1, 2 ou 3). Clique em "CADASTRAR".
 
 **2.** Listagem: O produto aparecerá automaticamente na tabela à direita com a etiqueta da categoria.
 
